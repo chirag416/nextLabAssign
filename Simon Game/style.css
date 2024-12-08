@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-color: #011F3F;
+  }
+  
+  #level-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    color: #FEF2BF;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .btn-green, .btn-red, .btn-blue, .btn-yellow {
+    height: 150px;
+    width: 150px;
+    border-radius: 15%;
+    border: 5px solid black;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .btn-green {
+    background-color: green;
+  }
+  
+  .btn-red {
+    background-color: red;
+  }
+  
+  .btn-blue {
+    background-color: blue;
+  }
+  
+  .btn-yellow {
+    background-color: yellow;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
